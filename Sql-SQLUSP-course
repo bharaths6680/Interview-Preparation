@@ -1,0 +1,58 @@
+Basic Understading SQL syntax:
+ 1. retrive data from the table:
+
+ SELECT statement:
+ syntax: Select * from TABLE_NAME; 
+
+ 
+ retrive some columns from the table:
+ syntax: Select first_name, second_name .... from TABLE_NAME; 
+ SELECT first_name, last_name FROM employees;
+
+ 2 WHERE clause: Filtering records.
+ syntax: Select * from TABLE_NAME WHERE department = 'Sales';
+ SELECT * FROM employees WHERE department = 'Sales';
+
+ 3 ORDER BY: Sorting the results.
+ syntax: Select * from TABLE_NAME ORDER BY COLUMN_NAME desc;
+ SELECT * FROM employees ORDER BY salary DESC;
+
+
+SQL DATA MANIPULATION:
+
+1. INSERT: Adding new records to a table
+syntax: INSERT into TABLE_NAME (first_name, last_name) VALUES ('Bharath', 'S');
+INSERT INTO employees (first_name, last_name, department) VALUES ('John', 'Doe', 'Sales');
+
+2. UPDATE: Modifying existing records (by id).
+syntax: UPDATE TABLE_NAME set first_name = 'Sharath' WHERE id = 1;
+Example: UPDATE employees SET salary = 50000 WHERE id = 1;
+
+3. DELETE: Removing records from a table.
+syntax: DELETE FROM TABLE_NAME WHERE ID = 1;
+DELETE: Removing records from a table.
+
+
+
+Module 2: Intermediate SQL
+
+2.1 JOINING TABLES:
+
+/* Sql Joins are used to combine rows from two or more tables based on the relation b/w the column 
+TYpes of sql joins:
+INNER JOIN
+LEFT JOIN (or LEFT OUTER JOIN)
+RIGHT JOIN (or RIGHT OUTER JOIN)
+FULL JOIN (or FULL OUTER JOIN)
+CROSS JOIN
+SELF JOIN
+*/
+
+1. INNER JOIN: Returns records that have matching values in both tables.
+
+syntax: SELECT * FROM TABLE1 INNER JOIN TABLE2 ON TABLE1.COLUMN_NAME = TABLE2.COLUMN_NAME;
+
+LEFT JOIN: Returns all records from the left table, and the matched records from the right table.
+
+RIGHT JOIN: Returns all records from the right table, and the matched records from the left table.
+FULL JOIN: Returns all records when there is a match in either left or right table.

@@ -1,0 +1,19 @@
+http vs https:
+http(hyper text transfer protocol) https(hyper text transfer protocol secure)
+These are the protocols are used to transfer the data over the internet.
+HTTP: not encrypted 
+data is intercepted every one can read access the data, attackers can alter the data.
+HTTPS: it is Encrypted using SSL(secure socket layers) or TLS(transport layer socket)
+ This encryption ensures that even if the data is intercepted, it cannot be read or 
+ tampered with by unauthorized parties
+ How: HTTPS provide authentication, it will make sure that the server we're communicating with 
+ is actualy the server wanted to communicate with.
+why HTTPS imp: 
+data integrity: ensures the data cannot be tampered during the transmission 
+security: encrypted data protecting user information and maintain the confidentiality.
+authentication: protect against the phising attacks 
+trust: users can easily trust 
+seo: usually search engines prioritize more on https links, so it will increase the site's search ranking. 
+In summary, while HTTP is suitable for general information that does not require security, 
+HTTPS is essential for any website that handles sensitive information or where data integrity, 
+authentication, and user trust are important
