@@ -1,6 +1,9 @@
-** Function CLosure **
-**function closure in simpler words **
+**Function CLosure**
+
+**function closure in simpler words**
+
 Imagine you have a function called "outer" and inside that function, you have another function called "inner". Now, when the "outer" function finishes running and completes its execution, you might think that any variables inside it would no longer be accessible. However, with function closure, the "inner" function can still access and use those variables, even after the "outer" function has finished running.
+
 It's like the "inner" function has a special memory that allows it to remember and access the variables from its surrounding environment, even when that environment is no longer active. This is really useful because it allows us to create private variables and maintain state between function calls.
 
 Function closures are like little "bundles" of functions and the variables they can access. They help us create more modular and maintainable code by keeping certain variables private and protected from outside interference. They also allow us to store and remember data between function calls, which can be really handy in certain programming scenarios.
