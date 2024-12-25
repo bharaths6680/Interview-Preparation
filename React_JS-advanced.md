@@ -50,19 +50,16 @@ Sure! Here’s a set of potential questions you might encounter in your frontend
 
 1. **Question:** Describe a time when you had to transform high-level requirements into a functional user interface.
    **Response:**
-   ```text
-   Provide a specific example, highlighting your process:
+   *Provide a specific example, highlighting your process:*
    - Understanding the requirements and user needs
    - Creating wireframes and prototypes
    - Collaborating with designers and stakeholders
    - Iterating based on feedback
    - Implementing the final UI using HTML, CSS, and JavaScript
-   ```
 
 2. **Question:** How do you handle integration with different systems in your projects?
    **Response:**
-   ```text
-   Discuss your approach, such as:
+   *Discuss your approach, such as:*
    - Analyzing system requirements and APIs
    - Using middleware or backend services for integration
    - Handling data transformation and validation
@@ -72,25 +69,21 @@ Sure! Here’s a set of potential questions you might encounter in your frontend
 
 3. **Question:** Can you give an example of a challenging problem you solved in collaboration with multiple teams?
    **Response:**
-   ```text
    Provide an example that demonstrates:
    - The complexity of the problem
    - Your role and contributions
    - Collaboration with different teams (developers, designers, product managers)
    - The solution you implemented
    - The outcome and impact of your solution
-   ```
 
 4. **Question:** How do you stay updated with the latest trends and technologies in frontend development?
    **Response:**
-   ```text
-   Mention your methods, such as:
+   *Mention your methods, such as:*
    - Following industry blogs and websites (e.g., Smashing Magazine, CSS-Tricks)
    - Participating in online communities (e.g., Stack Overflow, Reddit)
    - Attending webinars, conferences, and meetups
    - Taking online courses and tutorials (e.g., Frontend Masters, Udemy)
    - Experimenting with new technologies in personal projects
-   ```
 
 ### **Insight and Preparation Tips:**
 - **Understand the Company and Role:** Research Sixt, its products, and its technology stack. Tailor your responses to align with their needs and values.
@@ -264,35 +257,30 @@ Absolutely! Here are some important interview questions and potential responses 
 
 **Question:** What are micro-frontends, and what are their advantages?
 **Response:**
-```text
-Micro-frontends involve splitting a frontend application into smaller, independent units that can be developed, tested, and deployed separately. Each micro-frontend can use different technologies and frameworks and is integrated into a cohesive user interface.
+- Micro-frontends involve splitting a frontend application into smaller, independent units that can be developed, tested, and deployed separately. Each micro-frontend can use different technologies and frameworks and is integrated into a cohesive user interface.
 
 **Advantages:**
 - **Scalability:** Enables parallel development and independent deployments.
 - **Maintainability:** Smaller, focused codebases are easier to maintain.
 - **Technology Diversity:** Teams can choose the best technology stack for their specific needs.
 - **Isolation:** Reduces the risk of large-scale failures by isolating parts of the application.
-```
 
 ### **Chrome DevTools**
 
 **Question:** How do you use Chrome DevTools to debug JavaScript code?
 **Response:**
-```text
-Chrome DevTools is a powerful tool for debugging JavaScript code. Key features include:
+*Chrome DevTools is a powerful tool for debugging JavaScript code. Key features include:*
 - **Sources Panel:** Set breakpoints, step through code, inspect variables and the call stack.
 - **Console Panel:** Execute JavaScript expressions, log messages, and interact with the webpage.
 - **Network Panel:** Monitor network requests, view headers, and payloads.
 - **Performance Panel:** Analyze runtime performance, identify bottlenecks, and improve load times.
 - **Elements Panel:** Inspect and modify DOM elements and styles in real-time.
-```
 
 ### **Local Storage**
 
 **Question:** What is local storage in HTML5, and how is it used?
 **Response:**
-```text
-Local storage is a web storage API that allows storing key-value pairs in a web browser with no expiration time. Data persists even after the browser is closed.
+- Local storage is a web storage API that allows storing key-value pairs in a web browser with no expiration time. Data persists even after the browser is closed.
 
 **Example Usage:**
 ```javascript
@@ -308,14 +296,12 @@ localStorage.removeItem('username');
 // Clear all items
 localStorage.clear();
 ```
-```
 
 ### **Caching**
 
 **Question:** How do you implement caching in a web application?
 **Response:**
-```text
-Caching can be implemented using various techniques, including:
+*Caching can be implemented using various techniques, including:*
 - **Browser Cache:** Use HTTP headers (e.g., `Cache-Control`, `Expires`) to cache static assets.
 - **Service Workers:** Cache assets and API responses for offline access and improved performance.
 - **CDN:** Distribute content across multiple servers to reduce latency and load times.
@@ -342,14 +328,12 @@ self.addEventListener('fetch', event => {
   );
 });
 ```
-```
 
 ### **Web Workers**
 
 **Question:** What are web workers, and how do they enhance performance?
 **Response:**
-```text
-Web workers allow running JavaScript in the background, separate from the main execution thread. They enhance performance by handling CPU-intensive tasks without blocking the user interface.
+- Web workers allow running JavaScript in the background, separate from the main execution thread. They enhance performance by handling CPU-intensive tasks without blocking the user interface.
 
 **Example Usage:**
 ```javascript
@@ -366,14 +350,12 @@ self.onmessage = function(event) {
   self.postMessage('Hello, Main Script!');
 };
 ```
-```
 
 ### **Babel**
 
 **Question:** What is Babel, and why is it used in modern web development?
 **Response:**
-```text
-Babel is a JavaScript compiler that converts ECMAScript 2015+ code into backward-compatible JavaScript for older browsers. It enables developers to use the latest language features without worrying about browser compatibility.
+- Babel is a JavaScript compiler that converts ECMAScript 2015+ code into backward-compatible JavaScript for older browsers. It enables developers to use the latest language features without worrying about browser compatibility.
 
 **Key Features:**
 - **Transpiling:** Convert modern JavaScript (ES6+) to ES5.
@@ -385,8 +367,7 @@ Babel is a JavaScript compiler that converts ECMAScript 2015+ code into backward
 
 **Question:** How do you ensure cross-browser compatibility in your web applications?
 **Response:**
-```text
-Ensuring cross-browser compatibility involves:
+*Ensuring cross-browser compatibility involves:*
 - **Using Standards:** Write HTML, CSS, and JavaScript according to web standards.
 - **Testing:** Test the application on multiple browsers (Chrome, Firefox, Safari, Edge).
 - **Polyfills:** Use polyfills for unsupported features (e.g., `fetch`, `Promise`).
@@ -400,14 +381,12 @@ if (!window.Promise) {
   document.write('<script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"><\/script>');
 }
 ```
-```
 
 ### **Performance App Designing**
 
 **Question:** What techniques do you use for designing high-performance web applications?
 **Response:**
-```text
-Techniques for designing high-performance web applications include:
+*Techniques for designing high-performance web applications include:*
 - **Minimizing HTTP Requests:** Combine files, use CSS sprites, lazy load images.
 - **Optimizing Assets:** Compress images, minify CSS and JavaScript.
 - **Lazy Loading:** Load assets only when needed (e.g., images, videos).
@@ -442,16 +421,12 @@ Techniques for designing high-performance web applications include:
   });
 </script>
 ```
-```
-
-Got it! Let's cover a wide range of important questions that can come up in a web application development interview, going beyond the mentioned topics.
 
 ### **JavaScript Advanced Concepts**
 
 1. **Question:** What is event delegation, and how does it work?
    **Response:**
-   ```text
-   Event delegation is a technique in JavaScript where a single event listener is added to a parent element to manage events for multiple child elements. It works by leveraging the event bubbling mechanism.
+   - Event delegation is a technique in JavaScript where a single event listener is added to a parent element to manage events for multiple child elements. It works by leveraging the event bubbling mechanism.
 
    **Example:**
    ```javascript
@@ -462,12 +437,10 @@ Got it! Let's cover a wide range of important questions that can come up in a we
    });
    ```
    - **Problem:** Explain how event delegation improves performance and simplifies code management.
-   ```
 
 2. **Question:** What are closures, and how are they used in JavaScript?
    **Response:**
-   ```text
-   Closures are functions that have access to their own scope, the scope of the outer function, and the global scope. They allow for data encapsulation and are commonly used in functional programming.
+   - Closures are functions that have access to their own scope, the scope of the outer function, and the global scope. They allow for data encapsulation and are commonly used in functional programming.
 
    **Example:**
    ```javascript
@@ -482,14 +455,12 @@ Got it! Let's cover a wide range of important questions that can come up in a we
    newFunction('inside');
    ```
    - **Problem:** Discuss practical applications of closures, such as creating private variables and functions.
-   ```
 
 ### **React.js Advanced Topics**
 
 3. **Question:** How would you implement higher-order components (HOCs) in React?
    **Response:**
-   ```text
-   Higher-order components (HOCs) are functions that take a component and return a new component, often used to add additional functionality to existing components.
+   - Higher-order components (HOCs) are functions that take a component and return a new component, often used to add additional functionality to existing components.
 
    **Example:**
    ```javascript
@@ -509,14 +480,12 @@ Got it! Let's cover a wide range of important questions that can come up in a we
    const MyComponentWithLogging = withLogging(MyComponent);
    ```
    - **Problem:** Explain use cases for HOCs, such as logging, authentication, and theme management.
-   ```
 
 ### **Frontend Performance Optimization**
 
 4. **Question:** How do you optimize images for a web application?
    **Response:**
-   ```text
-   Optimizing images involves reducing their size without sacrificing quality, ensuring faster load times and better performance.
+   - Optimizing images involves reducing their size without sacrificing quality, ensuring faster load times and better performance.
 
    **Techniques:**
    - **Compression:** Use tools like TinyPNG or ImageOptim to compress images.
@@ -529,14 +498,12 @@ Got it! Let's cover a wide range of important questions that can come up in a we
    <img src="image.jpg" srcset="image-small.jpg 480w, image-medium.jpg 800w" sizes="(max-width: 600px) 480px, 800px" loading="lazy" alt="Example Image">
    ```
    - **Problem:** Discuss the trade-offs between image quality and file size.
-   ```
 
 ### **Security**
 
 5. **Question:** How do you prevent Cross-Site Scripting (XSS) attacks in a web application?
    **Response:**
-   ```text
-   Cross-Site Scripting (XSS) attacks occur when an attacker injects malicious scripts into content delivered to users.
+   - Cross-Site Scripting (XSS) attacks occur when an attacker injects malicious scripts into content delivered to users.
 
    **Prevention Techniques:**
    - **Input Validation:** Validate and sanitize user inputs to remove malicious code.
@@ -551,14 +518,12 @@ Got it! Let's cover a wide range of important questions that can come up in a we
    document.getElementById('output').innerHTML = safeHTML;
    ```
    - **Problem:** Explain the importance of keeping libraries and dependencies up-to-date to prevent XSS vulnerabilities.
-   ```
 
 ### **API Integration**
 
 6. **Question:** How do you handle authentication in a web application using JSON Web Tokens (JWT)?
    **Response:**
-   ```text
-   JSON Web Tokens (JWT) are used for securely transmitting information between parties as a JSON object. They are commonly used for authentication and authorization.
+   - JSON Web Tokens (JWT) are used for securely transmitting information between parties as a JSON object. They are commonly used for authentication and authorization.
 
    **Steps:**
    1. **User Login:** User sends credentials to the server.
@@ -579,14 +544,12 @@ Got it! Let's cover a wide range of important questions that can come up in a we
    });
    ```
    - **Problem:** Discuss the trade-offs between storing JWTs in localStorage versus cookies.
-   ```
 
 ### **Web Accessibility**
 
 7. **Question:** How do you ensure accessibility in a web application?
    **Response:**
-   ```text
-   Ensuring web accessibility involves designing and developing web content that is usable by people with disabilities.
+   - Ensuring web accessibility involves designing and developing web content that is usable by people with disabilities.
 
    **Techniques:**
    - **Semantic HTML:** Use appropriate HTML elements (e.g., `<header>`, `<nav>`, `<main>`).
@@ -600,14 +563,12 @@ Got it! Let's cover a wide range of important questions that can come up in a we
    <button aria-label="Close" onclick="closeModal()">Close</button>
    ```
    - **Problem:** Discuss tools and methods for testing web accessibility, such as Lighthouse and screen readers.
-   ```
 
 ### **WebSockets**
 
 8. **Question:** What are WebSockets, and how are they used in real-time web applications?
    **Response:**
-   ```text
-   WebSockets provide a full-duplex communication channel over a single, long-lived connection, enabling real-time data transfer between the client and server.
+   - WebSockets provide a full-duplex communication channel over a single, long-lived connection, enabling real-time data transfer between the client and server.
 
    **Example Usage:**
    ```javascript
@@ -635,14 +596,12 @@ Got it! Let's cover a wide range of important questions that can come up in a we
    });
    ```
    - **Problem:** Explain how WebSockets differ from HTTP and use cases where WebSockets are preferred.
-   ```
 
 ### **Progressive Web Apps (PWA)**
 
 9. **Question:** What are Progressive Web Apps (PWAs), and what are their key features?
    **Response:**
-   ```text
-   Progressive Web Apps (PWAs) are web applications that provide a native app-like experience using modern web technologies.
+   - Progressive Web Apps (PWAs) are web applications that provide a native app-like experience using modern web technologies.
 
    **Key Features:**
    - **Offline Capability:** Use service workers to cache assets and API responses for offline access.
@@ -665,15 +624,13 @@ Got it! Let's cover a wide range of important questions that can come up in a we
    }
    ```
    - **Problem:** Discuss how PWAs differ from traditional web apps and native mobile apps.
-   ```
 
 ### **GraphQL**
 
 10. **Question:** What is GraphQL, and how does it differ from REST APIs?
     **Response:**
-    ```text
-    GraphQL is a query language for APIs and a runtime for executing queries by providing a more efficient and flexible alternative to REST.
-
+    - GraphQL is a query language for APIs and a runtime for executing queries by providing a more efficient and flexible alternative to REST.
+   
     **Differences from REST:**
     - **Single Endpoint:** GraphQL uses a single endpoint for all queries and mutations, whereas REST typically uses multiple endpoints.
     - **Client-Specified Queries:** Clients specify exactly what data they need, reducing over-fetching and under-fetching.
